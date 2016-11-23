@@ -1,0 +1,29 @@
+{
+    "name": "wcast/instagram-explorer",
+    "description": "Exoplarador para o instagram",
+    "minimum-stability": "dev",
+    "type": "library",
+    "version":"1.0.0",
+    "keywords": ["Instagram","Explorer"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rogerio Gomes",
+            "email": "rogerio@wcast.com.br"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/wcast/instagram-explorer.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/InstagramExloprer.php"
+        ]
+    }
+}
